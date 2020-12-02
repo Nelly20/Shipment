@@ -76,7 +76,8 @@ a {
     margin-top: 20px; } }
 
 .main-screen {
-  padding: 80px 0; }
+  padding: 80px 0;
+  background-color: #faf7f7; }
 
 .main-screen--wrapper {
   display: flex;
@@ -86,7 +87,7 @@ a {
   font-weight: 800;
   font-size: 28px; }
   .main-screen__title span {
-    color: #f8d830; }
+    color: #FBE423; }
 
 .main-screen__list {
   margin: 0;
@@ -136,7 +137,9 @@ a {
     width: 100%; } }
 
 .process {
-  margin-top: 70px; }
+  padding: 70px;
+  margin-top: 70px;
+  background-color: #f2f2f2; }
 
 .process__title {
   font-weight: 800;
@@ -160,9 +163,9 @@ a {
   padding-left: 80px;
   font-size: 14px;
   color: #383839;
-  background-color: #faf7f7;
+  background-color: #ffffff;
   background-repeat: no-repeat;
-  background-position: 20px 30px;
+  background-position: 10px 30px;
   border-radius: 5px; }
 
 .process__list-item-header {
@@ -212,20 +215,20 @@ a {
 
 @media screen and (max-width: 767px) {
   .process {
-    margin-top: 50px; } }
+    margin-top: 50px;
+    padding: 50px 0; } }
 
 @media screen and (max-width: 500px) {
   .process__title {
     font-size: 18px; }
   .process__list-item {
     padding: 20px;
-    padding-left: 60px;
-    background-position: 10px 20px; } }
+    padding-left: 70px;
+    background-position: 5px 20px; } }
 
 .price {
-  margin-top: 70px;
-  padding: 70px 0;
-  background-color: #f2f2f2; }
+  margin: 70px 0;
+  background-color: #ffffff; }
 
 .price__title {
   font-weight: 800;
@@ -245,7 +248,7 @@ a {
   margin: 0 auto;
   margin-top: 40px;
   padding: 40px;
-  background-color: #ffffff;
+  background-color: #faf7f7;
   border-radius: 5px; }
 
 .price__list-item {
@@ -269,8 +272,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .price {
-    margin-top: 50px;
-    padding: 50px 0; } }
+    margin: 50px 0; } }
 
 @media screen and (max-width: 500px) {
   .price__title {
@@ -284,7 +286,7 @@ a {
 
 .advantages {
   padding: 70px 0;
-  background-color: #f2f2f2; }
+  background-color: #ffffff; }
 
 .advantages__title {
   font-weight: 800;
@@ -307,7 +309,7 @@ a {
   padding-left: 80px;
   font-size: 14px;
   color: #383839;
-  background-color: #ffffff;
+  background-color: #faf7f7;
   background-image: url("../img/star.svg");
   background-repeat: no-repeat;
   background-position: 20px 30px;
